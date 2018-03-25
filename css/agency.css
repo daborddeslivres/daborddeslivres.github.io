@@ -7,7 +7,7 @@
 body {
     overflow-x: hidden;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
-     color:#26B7BC;
+    color:#26B7BC;
 }
 
 .text-muted {
@@ -19,14 +19,19 @@ body {
 }
 
 p {
-    font-size: 14px;
-    line-height: 1.75;
+    font-size: 18px;
+    line-height: 1.5;
     color:#26B7BC;
 }
 
 p.large {
-    font-size: 16px;
+    font-size: 20px;
     color:#26B7BC;
+}
+
+li {
+    font-size: 18px;
+    line-height: 1.5;
 }
 
 a,
@@ -174,7 +179,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default {
     border-color: transparent;
-    background-color: #222;
+    background-color: #fff;
 }
 
 .navbar-default .navbar-brand {
@@ -216,6 +221,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-toggle {
+    color: #fff;
     border-color: #ec6708;
     background-color: #ec6708;
 }
@@ -226,32 +232,33 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
+    color: #fff;
     background-color: #ec6708;
 }
 
 .navbar-default .nav li a {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     letter-spacing: 1px;
-    color: #fff;
+    color: #ec6708;
 }
 
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #ec6708;
+    color: #26B7BC;
 }
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
-    color: #fff;
+    color: #222;
     background-color: #ec6708;
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
-    color: #fff;
+    color: #222;
     background-color: #ec6708;
 }
 
@@ -278,7 +285,7 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #222;
+        background-color: #fff;
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -288,7 +295,7 @@ fieldset[disabled] .btn-xl.active {
 
 header {
     text-align: center;
-    color: #fff;
+    color: #ec6708;
     background-attachment: scroll;
     background-image: url(../img/header-bg.jpg);
     background-position: center center;
@@ -313,6 +320,7 @@ header .intro-text .intro-lead-in {
 }
 
 header .intro-text .intro-heading {
+    color: #26B7BC;
     margin-bottom: 25px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -336,10 +344,12 @@ header .intro-text .intro-heading {
     }
 
     header .intro-text .intro-heading {
+        color: #26B7BC;
+        padding-top: 140px;
         margin-bottom: 50px;
-        text-transform: uppercase;
+        /*text-transform: uppercase;*/
         font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 75px;
+        font-size: 70px;
         font-weight: 700;
         line-height: 75px;
     }
@@ -653,19 +663,19 @@ section h3.section-subheading {
 }
 
 .flexbox {
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-flex-flow: row wrap;
-  flex-flow: row wrap;
-  justify-content: flex-start;
-  align-items: stretch;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: stretch;
 }
 
 .flexbox-center {
-  justify-content: center;
+    justify-content: center;
 }
 
 .team-member {
@@ -815,14 +825,16 @@ section#contact .text-success {
 }
 
 footer {
+    font-size: 24px;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif !important;
     padding: 25px 0;
     text-align: center;
+    background: #fff;
 }
 
 footer span.copyright {
     text-transform: uppercase;
     text-transform: none;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     line-height: 40px;
 }
 
@@ -848,7 +860,7 @@ ul.social-buttons li a {
     line-height: 40px;
     outline: 0;
     color: #fff;
-    background-color: #222;
+    background-color: #ec6708;
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s;
