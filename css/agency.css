@@ -314,8 +314,12 @@ header {
     background-repeat: no-repeat;
 }
 
-header .intro-text {
+header .intro-caption {
     padding-top: 380px;
+}
+
+header .intro-text {
+    padding-top: 50px;
     padding-bottom: 50px;
 }
 
@@ -339,8 +343,9 @@ header .intro-text .intro-heading {
 }
 
 @media(min-width:768px) {
+    
     header .intro-text {
-        padding-top: 450px;
+        padding-top: 60px;
         padding-bottom: 50px;
     }
     
