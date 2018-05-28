@@ -199,7 +199,8 @@ fieldset[disabled] .btn-xl.active {
     height: 90px;
     max-width: 250px;
     margin: -15px;
-    padding: 20px;
+    padding: 5px;
+    padding-bottom: 0px;
 }
 
 @media(min-width:768px) {
@@ -213,8 +214,6 @@ fieldset[disabled] .btn-xl.active {
     .navbar-brand>img {
         max-width: 400px;
         margin: -15px;
-        padding-top: 0px;
-        padding-bottom: 30px;
     }
 }
 
@@ -307,17 +306,14 @@ header {
     text-align: center;
     color: #ec6708;
     background-attachment: scroll;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0.6) 100%), url(../img/header-bg.jpg);
-    background-position: center center;
-    background-repeat: none;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+    background-image: url(../img/header-bg.png);
+    background-position : 0px 150px;
+    background-size: auto 220px;
+    background-repeat: no-repeat;
 }
 
 header .intro-text {
-    padding-top: 100px;
+    padding-top: 380px;
     padding-bottom: 50px;
 }
 
@@ -332,7 +328,6 @@ header .intro-text .intro-lead-in {
 header .intro-text .intro-heading {
     color: #26B7BC;
     margin-bottom: 20px;
-    text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 40px;
     font-weight: 700;
@@ -343,8 +338,8 @@ header .intro-text .intro-heading {
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 300px;
-        padding-bottom: 200px;
+        padding-top: 450px;
+        padding-bottom: 50px;
     }
     
     header .intro-text .intro-lead-in {
@@ -358,8 +353,7 @@ header .intro-text .intro-heading {
     header .intro-text .intro-heading {
         color: #26B7BC;
         font-size: 50px;
-        text-transform: uppercase;
-        font-weight: 700;
+        font-weight: 600;
         line-height: 75px;
         padding-top: 0px;
         margin-bottom: 50px;
@@ -867,10 +861,6 @@ footer ul.quicklinks {
 @media(min-width:992px) {
     footer {
         background-color: white; 
-        background-image: url(../img/chemin.png);
-        background-repeat: no-repeat;
-        background-size: 80%;
-        background-position: center;
     }
 }
 ul.social-buttons {
